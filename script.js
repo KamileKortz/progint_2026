@@ -1,5 +1,5 @@
 function mostrarMensagem() {
-    alert("Amoo");
+    alert("Eu te odeio");
 }
 
 function abrirModal() {
