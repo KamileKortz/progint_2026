@@ -2,25 +2,35 @@
 <html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Site para o Hudson lindo perfeito</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>I belive in Hudson Wlliams supremacy</h1>
-    <button onclick="mostrarMensagem()">Que?</button>
-    <script src="script.js"></script>
+  <h1>I belive in Hudson Wlliams supremacy</h1>
+
+  <button onclick="abrirModal1()">Que?</button>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="fechar" onclick="fecharModal1()">&times;</span>
+      <img src="https://pbs.twimg.com/profile_images/2008382216536035328/AR5BpUer.jpg"
+        alt="hudson vampiro">
+      <p>Eu te odeio</p>
+    </div>
+  </div>
+
+  <button onclick="abrirModal2()">Eu também!</button>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="fechar" onclick="fecharModal2()">&times;</span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxuV9ttq2T5pTYt5_5miKUsobQ883FA2-FIw&s"
+        alt="hudson leopardo">
+      <p>YESS</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
-
-<button onclick="abrirModal()">Eu também!</button>
-
-<div id="meuModal" class="modal">
-  <div class="modal-content">
-    <span class="fechar" onclick="fecharModal()">&times;</span>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJUFpFFQPVrmydHsnQyHjSNEiVFR6hTE69jg&s" alt="huson leopardo">
-    <p>YESS</p>
-  </div>
-</div>
