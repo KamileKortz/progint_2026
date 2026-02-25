@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    text-align: left;
+    background-color: #000000;
+}
+
+h1 {
+    color: rgb(0, 60, 255);
+
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(38, 0, 128);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
