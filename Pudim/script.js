@@ -11,6 +11,6 @@ window.onclick = function (event) {
   let m = document.getElementById("mostrarModal");
 
   if (event.target == m) {
-    m1.style.display = "none";
+    m.style.display = "none";
   }
 }
